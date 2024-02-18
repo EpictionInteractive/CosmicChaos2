@@ -89,7 +89,7 @@ Material:
     - _SpecularHighlights: 1
     - _SpreadFactor: 3
     - _SrcBlend: 1
-    - _UVOffsetY: -133.72673
+    - _UVOffsetY: -9.062747
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

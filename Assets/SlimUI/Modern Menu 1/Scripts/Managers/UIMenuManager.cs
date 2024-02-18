@@ -144,10 +144,20 @@ namespace SlimUI.ModernMenu{
 		}
 
 		//loaging scenes
-        public void LoadSceneBase(string sceneName)
+        public void LoadSceneCampaign(string sceneName)
         {
             SceneManager.LoadScene("base");
         }
+        public void LoadSceneTheVoid(string sceneName)
+        {
+            SceneManager.LoadScene("SCK_EnemyWaves");
+        }
+
+        public void LoadSceneSavethebase(string sceneName)
+        {
+            SceneManager.LoadScene("SCK_CapitalShips");
+        }
+
 
         public void  DisablePlayCampaign(){
 			playMenu.SetActive(false);
